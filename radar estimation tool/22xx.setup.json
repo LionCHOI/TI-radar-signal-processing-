@@ -1,0 +1,34 @@
+{
+  "createdByVersion": "3.0.0.14",
+  "createdOn": "2020-08-07T17:45:41.3213663+05:30",
+  "configUsed": "./22xx.mmwave.json",
+  "captureHardware": "DCA1000",
+  "DCA1000Config": {
+    "dataLoggingMode": "raw",
+    "dataTransferMode": "LVDSCapture",
+    "dataCaptureMode": "ethernetStream",
+    "packetSequenceEnable": 1,
+    "packetDelay_us": 25
+  },
+  "mmWaveDevice": "awr2243",
+  "operatingFreq": 77,
+  "mmWaveDeviceConfig": {
+    "RS232COMPort": "COM10",
+    "RS232BaudRate": "921600",
+    "radarSSFirmware": "C:\\ti\\mmwave_studio_03_00_00_14\\rf_eval_firmware\\AWR2243_ES1_1\\radarss\\xwr22xx_radarss.bin",
+    "masterSSFirmware": "C:\\ti\\mmwave_studio_03_00_00_14\\rf_eval_firmware\\AWR2243_ES1_1\\masterss\\xwr22xx_masterss.bin"
+  },
+  "capturedFiles": {
+    "numFilesCollected": 1,
+    "fileBasePath": ".",
+    "files": [
+      {
+        "rawFileName": "data/opposite_yes.bin", 
+        "processedFileName": "data/opposite_yes.bin",
+        "processedFileSummary": {
+          "numZeroFillBytes": 0
+        }
+      }
+    ]
+  }
+}
